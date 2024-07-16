@@ -1,15 +1,55 @@
-// Sample data for employees
+// Data of employees
 const employees = [
     {
-        code: '11111',
-        name: 'Tong Tien Dat',
+        code: 'EMP001',
+        name: 'Nguyễn Văn A',
         gender: 'Nam',
-        dob: '11/02/2002',
-        email: 'dat@gmail.com',
-        address: 'HN',
+        dob: '01/01/1990',
+        email: 'nguyenvana@gmail.com',
+        address: 'Hà Đông, Hà Nội',
     },
-   
+    {
+        code: 'EMP002',
+        name: 'Trần Thị B',
+        gender: 'Nữ',
+        dob: '05/05/1992',
+        email: 'tranthib@gmail.com',
+        address: 'Thanh Xuân, Hà Nội',
+    },
+    {
+        code: 'EMP003',
+        name: 'Lê Văn C',
+        gender: 'Nam',
+        dob: '12/12/1985',
+        email: 'levanc@gmail.com',
+        address: 'Cầu Giấy, Hà Nội',
+    },
+    {
+        code: 'EMP004',
+        name: 'Hoàng Thị D',
+        gender: 'Nữ',
+        dob: '23/09/1993',
+        email: 'hoangthid@gmail.com',
+        address: 'Ba Đình, Hà Nội',
+    },
+    {
+        code: 'EMP005',
+        name: 'Phạm Văn E',
+        gender: 'Nam',
+        dob: '17/07/1988',
+        email: 'phamvane@gmail.com',
+        address: 'Tây Hồ, Hà Nội',
+    },
+    {
+        code: 'EMP006',
+        name: 'Vũ Thị F',
+        gender: 'Nữ',
+        dob: '08/08/1995',
+        email: 'vuthif@gmail.com',
+        address: 'Hoàng Mai, Hà Nội',
+    },
 ];
+
 
 openToggle();
 
@@ -24,23 +64,9 @@ document.getElementById('toggleButton').addEventListener('click', function () {
     const slideBar = document.getElementById('slideBar');
     const toggleText = document.getElementById('toggleText');
 
-    if (slideBar.classList.contains('expanded')) {
-        slideBar.classList.remove('expanded');
-        toggleText.textContent = 'Mở';
-    } else {
-        slideBar.classList.add('expanded');
-        toggleText.textContent = 'Đóng';
-    }
 });
 
-// Modal Handling
-function openModal() {
-    document.getElementById('employeeModal').style.display = 'flex';
-}
 
-function closeModal() {
-    document.getElementById('employeeModal').style.display = 'none';
-}
 
 function handleSubmit(event) {
     event.preventDefault();
@@ -65,17 +91,12 @@ function handleSubmit(event) {
     };
 
     console.log(employees);
-
-    // Thêm logic lưu dữ liệu nhân viên vào đây
-    // ...
-
-    // Sau khi lưu dữ liệu, đóng modal và xóa dữ liệu
     closeModal();
     document.getElementById('employeeForm').reset();
 }
 
 
-// Function to render the employee table
+//render the employee table
 function renderTable() {
     const tableBody = document.getElementById('employeeTableBody');
     tableBody.innerHTML = '';
@@ -96,16 +117,7 @@ function renderTable() {
     });
 }
 
-// Function to search employees
-function search() {
-    const keyword = document.getElementById('searchKeyword').value.toLowerCase();
-    const filteredEmployees = employees.filter(employee =>
-        employee.name.toLowerCase().includes(keyword)
-    );
-    console.log('Search results:', filteredEmployees);
-    // Render the filtered employees
-    renderTable(filteredEmployees);
-}
+
 
 // Function to open modal
 function openModal(employeeIndex = null) {
@@ -118,11 +130,6 @@ function openModal(employeeIndex = null) {
     }
 }
 
-// Function to close modal
-function closeModal() {
-    document.getElementById('employeeModal').style.display = 'none';
-    document.getElementById('employeeForm').reset();
-}
 
 // Function to save employee
 function saveEmployee() {
