@@ -67,35 +67,6 @@ document.getElementById('toggleButton').addEventListener('click', function () {
 });
 
 
-
-function handleSubmit(event) {
-    event.preventDefault();
-
-    const employees = {
-        code: document.getElementById('employeeCode').value,
-        name: document.getElementById('employeeName').value,
-        position: document.getElementById('employeePosition').value,
-        department: document.getElementById('employeeDepartment').value,
-        dob: document.getElementById('employeeDob').value,
-        gender: document.querySelector('input[name="gender"]:checked').value,
-        id: document.getElementById('employeeId').value,
-        idDate: document.getElementById('employeeIdDate').value,
-        issued: document.getElementById('employeeIssued').value,
-        address: document.getElementById('employeeAddress').value,
-        phone: document.getElementById('employeePhone').value,
-        tel: document.getElementById('employeeTel').value,
-        email: document.getElementById('employeeEmail').value,
-        bankAccountNumber: document.getElementById('employeeBankAccountNumber').value,
-        bankAccountName: document.getElementById('employeeBankAccountName').value,
-        branch: document.getElementById('employeeBranch').value,
-    };
-
-    console.log(employees);
-    closeModal();
-    document.getElementById('employeeForm').reset();
-}
-
-
 //render the employee table
 function renderTable() {
     const tableBody = document.getElementById('employeeTableBody');
@@ -131,27 +102,6 @@ function openModal(employeeIndex = null) {
 }
 
 
-// Function to save employee
-function saveEmployee() {
-    const employeeIndex = document.getElementById('employeeId').value;
-    const name = document.getElementById('employeeName').value;
-    // Get other form fields similarly
-    if (employeeIndex) {
-        // Edit existing employee
-        employees[employeeIndex].name = name;
-        // Update other fields similarly
-    } else {
-        // Add new employee
-        const newEmployee = {
-            code: `NV${employees.length + 1}`.padStart(3, '0'),
-            name,
-            // Set other fields similarly
-        };
-        employees.push(newEmployee);
-    }
-    closeModal();
-    renderTable();
-}
 
 // Function to delete employee
 function deleteEmployee(index) {

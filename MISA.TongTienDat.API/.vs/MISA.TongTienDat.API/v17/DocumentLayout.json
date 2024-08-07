@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ThucHanh\\MISA.TongTienDat.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{223B620E-6DD5-4FB9-BC2D-1E96FE00BDC3}|MISA.TongTienDat.API\\MISA.TongTienDat.API.csproj|d:\\thuchanh\\misa.tongtiendat.api\\misa.tongtiendat.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223B620E-6DD5-4FB9-BC2D-1E96FE00BDC3}|MISA.TongTienDat.API\\MISA.TongTienDat.API.csproj|solutionrelative:misa.tongtiendat.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BAFDD8-2E31-4FCE-B2CB-3C832999F324}|MISA.TongTienDat.Infrastructure\\MISA.TongTienDat.Infrastructure.csproj|d:\\thuchanh\\misa.tongtiendat.api\\misa.tongtiendat.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70BAFDD8-2E31-4FCE-B2CB-3C832999F324}|MISA.TongTienDat.Infrastructure\\MISA.TongTienDat.Infrastructure.csproj|solutionrelative:misa.tongtiendat.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C6CCAF-C1A2-4E51-8E53-A9712468B848}|MISA.TongTienDat.core\\MISA.TongTienDat.core.csproj|d:\\thuchanh\\misa.tongtiendat.api\\misa.tongtiendat.core\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C6CCAF-C1A2-4E51-8E53-A9712468B848}|MISA.TongTienDat.core\\MISA.TongTienDat.core.csproj|solutionrelative:misa.tongtiendat.core\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C6CCAF-C1A2-4E51-8E53-A9712468B848}|MISA.TongTienDat.core\\MISA.TongTienDat.core.csproj|d:\\thuchanh\\misa.tongtiendat.api\\misa.tongtiendat.core\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C6CCAF-C1A2-4E51-8E53-A9712468B848}|MISA.TongTienDat.core\\MISA.TongTienDat.core.csproj|solutionrelative:misa.tongtiendat.core\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C6CCAF-C1A2-4E51-8E53-A9712468B848}|MISA.TongTienDat.core\\MISA.TongTienDat.core.csproj|d:\\thuchanh\\misa.tongtiendat.api\\misa.tongtiendat.core\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C6CCAF-C1A2-4E51-8E53-A9712468B848}|MISA.TongTienDat.core\\MISA.TongTienDat.core.csproj|solutionrelative:misa.tongtiendat.core\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C6CCAF-C1A2-4E51-8E53-A9712468B848}|MISA.TongTienDat.core\\MISA.TongTienDat.core.csproj|d:\\thuchanh\\misa.tongtiendat.api\\misa.tongtiendat.core\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C6CCAF-C1A2-4E51-8E53-A9712468B848}|MISA.TongTienDat.core\\MISA.TongTienDat.core.csproj|solutionrelative:misa.tongtiendat.core\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C6CCAF-C1A2-4E51-8E53-A9712468B848}|MISA.TongTienDat.core\\MISA.TongTienDat.core.csproj|d:\\thuchanh\\misa.tongtiendat.api\\misa.tongtiendat.core\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C6CCAF-C1A2-4E51-8E53-A9712468B848}|MISA.TongTienDat.core\\MISA.TongTienDat.core.csproj|solutionrelative:misa.tongtiendat.core\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223B620E-6DD5-4FB9-BC2D-1E96FE00BDC3}|MISA.TongTienDat.API\\MISA.TongTienDat.API.csproj|d:\\thuchanh\\misa.tongtiendat.api\\misa.tongtiendat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223B620E-6DD5-4FB9-BC2D-1E96FE00BDC3}|MISA.TongTienDat.API\\MISA.TongTienDat.API.csproj|solutionrelative:misa.tongtiendat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BAFDD8-2E31-4FCE-B2CB-3C832999F324}|MISA.TongTienDat.Infrastructure\\MISA.TongTienDat.Infrastructure.csproj|d:\\thuchanh\\misa.tongtiendat.api\\misa.tongtiendat.infrastructure\\misa.tongtiendat.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{70BAFDD8-2E31-4FCE-B2CB-3C832999F324}|MISA.TongTienDat.Infrastructure\\MISA.TongTienDat.Infrastructure.csproj|solutionrelative:misa.tongtiendat.infrastructure\\misa.tongtiendat.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C6CCAF-C1A2-4E51-8E53-A9712468B848}|MISA.TongTienDat.core\\MISA.TongTienDat.core.csproj|d:\\thuchanh\\misa.tongtiendat.api\\misa.tongtiendat.core\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C6CCAF-C1A2-4E51-8E53-A9712468B848}|MISA.TongTienDat.core\\MISA.TongTienDat.core.csproj|solutionrelative:misa.tongtiendat.core\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223B620E-6DD5-4FB9-BC2D-1E96FE00BDC3}|MISA.TongTienDat.API\\MISA.TongTienDat.API.csproj|d:\\thuchanh\\misa.tongtiendat.api\\misa.tongtiendat.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{223B620E-6DD5-4FB9-BC2D-1E96FE00BDC3}|MISA.TongTienDat.API\\MISA.TongTienDat.API.csproj|solutionrelative:misa.tongtiendat.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 110,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.core\\Services\\BaseService.cs",
+              "RelativeDocumentMoniker": "MISA.TongTienDat.core\\Services\\BaseService.cs",
+              "ToolTip": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.core\\Services\\BaseService.cs",
+              "RelativeToolTip": "MISA.TongTienDat.core\\Services\\BaseService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T16:00:13.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "MISA.TongTienDat.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "MISA.TongTienDat.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA7wEMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:50:18.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Common.cs",
+              "DocumentMoniker": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.core\\Common.cs",
+              "RelativeDocumentMoniker": "MISA.TongTienDat.core\\Common.cs",
+              "ToolTip": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.core\\Common.cs",
+              "RelativeToolTip": "MISA.TongTienDat.core\\Common.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:41:15.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.core\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "MISA.TongTienDat.core\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.core\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "MISA.TongTienDat.core\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:47:37.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.API\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "MISA.TongTienDat.API\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.API\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "MISA.TongTienDat.API\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAUwFIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T02:45:19.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.core\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "MISA.TongTienDat.core\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.core\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "MISA.TongTienDat.core\\Interfaces\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:48:01.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.core\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "MISA.TongTienDat.core\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.core\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "MISA.TongTienDat.core\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:47:06.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.API\\Program.cs",
+              "RelativeDocumentMoniker": "MISA.TongTienDat.API\\Program.cs",
+              "ToolTip": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.API\\Program.cs",
+              "RelativeToolTip": "MISA.TongTienDat.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:56:59.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MISA.TongTienDat.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.Infrastructure\\MISA.TongTienDat.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "MISA.TongTienDat.Infrastructure\\MISA.TongTienDat.Infrastructure.csproj",
+              "ToolTip": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.Infrastructure\\MISA.TongTienDat.Infrastructure.csproj",
+              "RelativeToolTip": "MISA.TongTienDat.Infrastructure\\MISA.TongTienDat.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-07T02:44:20.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.API\\appsettings.json",
+              "RelativeDocumentMoniker": "MISA.TongTienDat.API\\appsettings.json",
+              "ToolTip": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.API\\appsettings.json",
+              "RelativeToolTip": "MISA.TongTienDat.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-07T15:43:37.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.core\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "MISA.TongTienDat.core\\Entities\\Employee.cs",
+              "ToolTip": "D:\\ThucHanh\\MISA.TongTienDat.API\\MISA.TongTienDat.core\\Entities\\Employee.cs",
+              "RelativeToolTip": "MISA.TongTienDat.core\\Entities\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T02:46:04.341Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
