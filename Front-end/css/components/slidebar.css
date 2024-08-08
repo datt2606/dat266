@@ -1,7 +1,7 @@
 /* Slide Bar styles */
 .slide-bar {
     width: 56px;
-    transition: width 0.3s;
+    transition: width 0.3s ease;
     background-color: #140033;
     color: white;
     height: 100%;
@@ -13,34 +13,46 @@
     width: 200px;
 }
 
+.content {
+    margin: 20px;
+    flex-grow: 1;
+}
+
 .router-link {
     display: flex;
     align-items: center;
-    color: white;
+    color: #e0e0e0;
     text-decoration: none;
     margin-bottom: 10px;
     padding: 10px;
-    transition: background-color 0.3s;
-    font-weight: 600px;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+    border-left: 3px solid transparent;
 }
 
 .router-link img {
-    margin-right: 5px;
-    filter: brightness(0) invert(1);
+    margin-right: 16px;
+    filter: brightness(0) invert(0.8);
+    transition: filter 0.3s ease;
 }
 
 .router-link span {
-    transition: color 0.3s;
+    transition: opacity 0.3s ease;
+    opacity: 0;
 }
 
-.router-link:hover {
-    background-color: #5a79a0;
+.slide-bar.expanded .router-link span {
+    opacity: 1;
+}
+
+.router-link:hover, .active-link {
+    background-color: rgba(90, 121, 160, 0.5);
+    border-left-color: #5a79a0;
     border-radius: 5px;
 }
 
-.active-link {
-    background-color: #5a79a0;
-    border-radius: 5px;
+.router-link:hover img, .active-link img {
+    filter: brightness(0) invert(1);
 }
 
 .toggle-button {
@@ -52,9 +64,9 @@
     cursor: pointer;
     position: absolute;
     bottom: 0;
+    transition: background-color 0.3s ease;
 }
 
-.content {
-    margin: 20px;
-    flex-grow: 1;
+.toggle-button:hover {
+    background-color: #1e0049;
 }

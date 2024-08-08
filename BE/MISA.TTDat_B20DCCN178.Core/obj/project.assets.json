@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.Core\\MISA.TTDat_B20DCCN178.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\dat266\\BE\\MISA.TTDat_B20DCCN178.Core\\MISA.TTDat_B20DCCN178.Core.csproj",
       "projectName": "MISA.TTDat_B20DCCN178.Core",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.Core\\MISA.TTDat_B20DCCN178.Core.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\dat266\\BE\\MISA.TTDat_B20DCCN178.Core\\MISA.TTDat_B20DCCN178.Core.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.Core\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\dat266\\BE\\MISA.TTDat_B20DCCN178.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

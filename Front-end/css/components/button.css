@@ -3,17 +3,30 @@
     align-items: center;
     justify-content: center;
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
     text-align: center;
     white-space: nowrap;
+    cursor: pointer;
     background-color: #50B83C;
     color: white;
-}
-
-.btn_add:hover{
-    
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn_add:hover {
     background-color: #2a8618;
-}
+  }
+  
+  .btn_add .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+
+
 
 .action {
     display: flex;

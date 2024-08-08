@@ -10,6 +10,8 @@ namespace MISA.TTDat_B20DCCN178.Core.Entities
     {
         public Guid EmployeeId { get; set; }
         public string EmployeeCode { get; set; }
+        public string DepartmentName { get; set; }
+        public string PositionName { get; set; }
         public string FullName { get; set; }
         public DateTime? DateOfBirth { get; set; }
         public int? Gender { get; set; }

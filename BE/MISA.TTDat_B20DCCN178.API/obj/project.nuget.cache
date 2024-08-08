@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d1kE8lIa4as=",
+  "dgSpecHash": "2FYCB+tOtTo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.API\\MISA.TTDat_B20DCCN178.API.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\dat266\\BE\\MISA.TTDat_B20DCCN178.API\\MISA.TTDat_B20DCCN178.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

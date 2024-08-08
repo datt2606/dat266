@@ -118,7 +118,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   border: 1px solid #ccc;
-  min-width: 600px; /* Đảm bảo bảng không bị thu nhỏ quá mức */
+  min-width: 600px; 
 }
 
 th,
@@ -127,9 +127,9 @@ td {
   text-align: left;
   border-bottom: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  white-space: nowrap; /* Ngăn text xuống dòng */
+  white-space: nowrap; 
   overflow: hidden;
-  text-overflow: ellipsis; /* Hiển thị dấu ... khi text quá dài */
+  text-overflow: ellipsis; 
 }
 
 th:last-child,
@@ -151,9 +151,9 @@ th {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  height: auto; /* Thay đổi từ height: 500px thành auto */
-  max-height: 500px; /* Thêm max-height để giới hạn chiều cao tối đa */
-  overflow-y: auto; /* Cho phép cuộn dọc nếu nội dung vượt quá max-height */
+  height: auto; 
+  max-height: 500px; 
+  overflow-y: auto; 
 }
 .pagination {
   display: flex;
@@ -173,12 +173,10 @@ th {
   display: none;
 }
 
-/* Hiển thị hai nút khi di chuột vào dòng */
 tr:hover .button-edit, tr:hover .button-delete {
   display: inline-block;
 }
 
-/* Căn hai nút sang phải trong ô */
 td:last-child {
   position: relative;
 }
@@ -197,7 +195,6 @@ td:last-child {
   right: 5px; 
 }
 
-/* Styling cho nút */
 .button-edit img, .button-delete img {
   width: 20px; 
   height: 20px;
@@ -207,4 +204,42 @@ td:last-child {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+
+.tool_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quick_filter {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 8px 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url('../assets/icon/search-48.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+}
+
+.search-input {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  width: 200px;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #999;
 }

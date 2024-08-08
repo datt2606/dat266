@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MISA.TTDat_B20DCCN178.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3180444119301c2cd2c1d2f8feb00974575eea48")]
 [assembly: System.Reflection.AssemblyProductAttribute("MISA.TTDat_B20DCCN178.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MISA.TTDat_B20DCCN178.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

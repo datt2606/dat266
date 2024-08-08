@@ -1,7 +1,7 @@
 // Biến toàn cục
 let currentId = "";
 let data = {};
-const port = 7129;
+const port = 7211;
 
 // Khởi tạo khi trang web được load
 window.onload = function () {
@@ -58,8 +58,8 @@ function loadEmployeeById() {
             document.getElementById('brach').value = data.brach;
 
             // Chọn giá trị trong các select
-            document.getElementById('department').value = data.departmentId;
-            document.getElementById('position').value = data.positionId;
+            document.getElementById('department').value = data.departmentName;
+            document.getElementById('position').value = data.positionName;
         })
         .catch((error) => console.error(error));
 }

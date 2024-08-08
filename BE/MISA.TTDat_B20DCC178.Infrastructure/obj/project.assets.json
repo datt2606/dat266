@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCC178.Infrastructure\\MISA.TTDat_B20DCC178.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\dat266\\BE\\MISA.TTDat_B20DCC178.Infrastructure\\MISA.TTDat_B20DCC178.Infrastructure.csproj",
       "projectName": "MISA.TTDat_B20DCC178.Infrastructure",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCC178.Infrastructure\\MISA.TTDat_B20DCC178.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\dat266\\BE\\MISA.TTDat_B20DCC178.Infrastructure\\MISA.TTDat_B20DCC178.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCC178.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\dat266\\BE\\MISA.TTDat_B20DCC178.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -223,8 +223,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.Core\\MISA.TTDat_B20DCCN178.Core.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.Core\\MISA.TTDat_B20DCCN178.Core.csproj"
+            "C:\\Users\\Admin\\Desktop\\dat266\\BE\\MISA.TTDat_B20DCCN178.Core\\MISA.TTDat_B20DCCN178.Core.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\dat266\\BE\\MISA.TTDat_B20DCCN178.Core\\MISA.TTDat_B20DCCN178.Core.csproj"
             }
           }
         }
