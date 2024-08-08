@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MISA.TTDat_B20DCCN178.API.props" />
+</Project>

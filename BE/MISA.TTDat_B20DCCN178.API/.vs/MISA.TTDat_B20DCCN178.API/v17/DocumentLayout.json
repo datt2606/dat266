@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69D59F8D-66C9-43C0-B20B-21ED30DFD69F}|MISA.TTDat_B20DCCN178.API.csproj|c:\\users\\admin\\desktop\\be\\misa.ttdat_b20dccn178.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69D59F8D-66C9-43C0-B20B-21ED30DFD69F}|MISA.TTDat_B20DCCN178.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69D59F8D-66C9-43C0-B20B-21ED30DFD69F}|MISA.TTDat_B20DCCN178.API.csproj|c:\\users\\admin\\desktop\\be\\misa.ttdat_b20dccn178.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D59F8D-66C9-43C0-B20B-21ED30DFD69F}|MISA.TTDat_B20DCCN178.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69D59F8D-66C9-43C0-B20B-21ED30DFD69F}|MISA.TTDat_B20DCCN178.API.csproj|c:\\users\\admin\\desktop\\be\\misa.ttdat_b20dccn178.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D59F8D-66C9-43C0-B20B-21ED30DFD69F}|MISA.TTDat_B20DCCN178.API.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9785FC85-F9F9-4676-A57C-A8C2B8545D08}|..\\MISA.TTDat_B20DCC178.Infrastructure\\MISA.TTDat_B20DCC178.Infrastructure.csproj|c:\\users\\admin\\desktop\\be\\misa.ttdat_b20dcc178.infrastructure\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 110,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-08T07:28:59.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAADEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:28:24.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.API\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCCN178.API\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAH4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:27:52.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCC178.Infrastructure\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\MISA.TTDat_B20DCC178.Infrastructure\\Repository\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BE\\MISA.TTDat_B20DCC178.Infrastructure\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\MISA.TTDat_B20DCC178.Infrastructure\\Repository\\EmployeeRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBMAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:27:01.653Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
