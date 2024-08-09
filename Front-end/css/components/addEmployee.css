@@ -1,3 +1,4 @@
+/* Định nghĩa biến màu sắc */
 :root {
     --primary-color: #089740;
     --secondary-color: #E6F6F3;
@@ -8,11 +9,13 @@
     --background-color: #D9D9D9;
 }
 
+/* Thiết lập cơ bản cho body */
 body {
     font-family: Arial, sans-serif;
     color: var(--text-color);
 }
 
+/* Cấu trúc chung cho các phần tử flexbox */
 .main-content,
 .register-form,
 .row,
@@ -21,6 +24,7 @@ body {
     display: flex;
 }
 
+/* Thiết lập cho phần nội dung chính */
 .main-content {
     align-items: center;
     justify-content: center;
@@ -30,6 +34,7 @@ body {
     float: left;
 }
 
+/* Thiết lập cho form đăng ký */
 .register-form {
     flex-direction: column;
     background-color: #FFFFFF;
@@ -40,6 +45,7 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Thiết lập cho các hàng trong form */
 .row {  
     align-items: center;
     width: 100%;
@@ -63,6 +69,7 @@ body {
     flex-direction: column;
 }
 
+/* Thiết lập cho các trường nhập liệu */
 input, select {
     height: 32px;
     border: 1px solid var(--border-color);
@@ -83,6 +90,7 @@ input[type="date"] {
     padding: 0 4px;
 }
 
+/* Thiết lập cho nhãn */
 label {
     margin-bottom: 2px;
     font-size: 14px;
@@ -90,6 +98,7 @@ label {
     color: var(--text-color);
 }
 
+/* Thiết lập cho các trường cụ thể */
 .row .row-left .employee-code {
     width: 40%;
 }
@@ -138,6 +147,7 @@ label {
     width: 32.5%;
 }
 
+/* Thiết lập cho các nút */
 .btn {
     width: 72px;
     height: 36px;
@@ -171,6 +181,7 @@ label {
     background-color: var(--hover-color);
 }
 
+/* Thiết lập cho trạng thái lỗi */
 .error {
     border: 1.5px solid var(--error-color);
     border-radius: 4px;

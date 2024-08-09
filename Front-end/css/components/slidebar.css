@@ -1,64 +1,71 @@
-/* Slide Bar styles */
-.slide-bar {
-    width: 56px;
-    transition: width 0.3s ease;
-    background-color: #140033;
-    color: white;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
+/* Định nghĩa biến màu sắc */
+:root {
+    --primary-bg: #140033;
+    --hover-bg: #1e0049;
+    --text-color: #e0e0e0;
+    --active-bg: rgba(90, 121, 160, 0.5);
 }
 
+/* Thiết lập cơ bản cho thanh trượt */
+.slide-bar {
+    width: 56px;
+    height: 100%;
+    background-color: var(--primary-bg);
+    color: white;
+    overflow: hidden;
+    transition: width 0.3s ease;
+}
+
+/* Trạng thái mở rộng của thanh trượt */
 .slide-bar.expanded {
     width: 200px;
 }
 
-.content {
-    margin: 20px;
-    flex-grow: 1;
-}
-
+/* Định dạng cho các liên kết trong thanh trượt */
 .router-link {
     display: flex;
     align-items: center;
-    color: #e0e0e0;
-    text-decoration: none;
-    margin-bottom: 10px;
     padding: 10px;
-    transition: background-color 0.3s ease;
+    color: var(--text-color);
+    text-decoration: none;
     font-weight: 600;
-    border-left: 3px solid transparent;
+    transition: background-color 0.3s ease;
 }
 
+/* Định dạng cho biểu tượng trong liên kết */
 .router-link img {
     margin-right: 16px;
     filter: brightness(0) invert(0.8);
     transition: filter 0.3s ease;
 }
 
+/* Xử lý hiển thị văn bản khi thanh trượt mở rộng */
 .router-link span {
-    transition: opacity 0.3s ease;
     opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .slide-bar.expanded .router-link span {
     opacity: 1;
 }
 
-.router-link:hover, .active-link {
-    background-color: rgba(90, 121, 160, 0.5);
-    border-left-color: #5a79a0;
+/* Hiệu ứng khi di chuột qua hoặc liên kết đang active */
+.router-link:hover,
+.active-link {
+    background-color: var(--active-bg);
     border-radius: 5px;
 }
 
-.router-link:hover img, .active-link img {
+.router-link:hover img,
+.active-link img {
     filter: brightness(0) invert(1);
 }
 
+/* Nút chuyển đổi trạng thái thanh trượt */
 .toggle-button {
     width: 100%;
     height: 40px;
-    background-color: #140033;
+    background-color: var(--primary-bg);
     color: white;
     border: none;
     cursor: pointer;
@@ -68,5 +75,5 @@
 }
 
 .toggle-button:hover {
-    background-color: #1e0049;
+    background-color: var(--hover-bg);
 }

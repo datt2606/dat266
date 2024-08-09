@@ -1,3 +1,4 @@
+/* Lớp nền mờ */
 .popup {
     display: none;
     position: fixed;
@@ -11,6 +12,7 @@
     z-index: 1000;
 }
 
+/* Nội dung popup */
 .popup-content {
     font-family: Arial, sans-serif;
     font-size: 14px;
@@ -25,6 +27,7 @@
     overflow: hidden;
 }
 
+/* Phần đầu popup */
 .popup-header {
     padding: 16px 20px;
     background-color: #f8f8f8;
@@ -34,17 +37,20 @@
     align-items: center;
 }
 
+/* Tiêu đề popup */
 .popup-header h2 {
     margin: 0;
     font-size: 18px;
     color: #333;
 }
 
+/* Phần thân popup */
 .popup-body {
     padding: 20px;
     line-height: 1.5;
 }
 
+/* Phần chân popup */
 .popup-footer {
     padding: 16px 20px;
     background-color: #f8f8f8;
@@ -52,6 +58,7 @@
     text-align: right;
 }
 
+/* Nút đóng */
 .close-btn {
     background: none;
     border: none;
@@ -72,6 +79,7 @@
     height: 100%;
 }
 
+/* Nút đóng popup */
 .close-popup-btn {
     background-color: #089740;
     color: white;

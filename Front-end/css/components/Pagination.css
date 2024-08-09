@@ -1,3 +1,4 @@
+/* Khung phân trang */
 .pagination {
     display: flex;
     justify-content: space-between;
@@ -9,11 +10,13 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Văn bản trong phân trang */
 .pagination span {
     font-weight: 500;
     color: #333;
 }
 
+/* Hộp chọn số trang */
 .pagination select {
     padding: 8px 12px;
     margin: 0 10px;
@@ -31,10 +34,12 @@
     box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
 }
 
+/* Nhóm nút phân trang */
 .pagination-buttons {
     display: flex;
 }
 
+/* Nút phân trang */
 .pagination button {
     width: 36px;
     height: 36px;
@@ -63,6 +68,7 @@
     color: #999;
 }
 
+/* Hiển thị tổng số bản ghi */
 .total-records {
     font-size: 14px;
     color: #666;

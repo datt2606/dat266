@@ -21,7 +21,7 @@ async function fetchEmployees() {
         const data = await response.json();
         console.log(data);
         employees = data;
-        totalPage = employees.length % 10 == 0 ? employees.length / 10 : employees.length / 10 + 1;
+        totalPage = employees.length % rowsPerPage == 0 ? employees.length / rowsPerPage : employees.length / rowsPerPage + 1;
         renderTable();
         updateTotalRecords();
         renderPaging();
@@ -34,9 +34,10 @@ async function fetchEmployees() {
 function renderPaging() {
     let select = document.getElementById("recordsPerPage");
     let options = ``;
-    for (let i = 0; i < totalPage; i++) {
+    for (let i = 1; i <= totalPage; i++) {
         options += `<option value="${i}">${i}</option>`;
     }
+    select.innerHTML = options;
 }
 
 
@@ -82,6 +83,7 @@ function prevPage() {
     if (currentPage > 1) {
         currentPage--;
         renderTable();
+        document.getElementById("recordsPerPage").value = currentPage;
     }
 }
 
@@ -92,6 +94,8 @@ function nextPage() {
     if (currentPage < Math.ceil(employees.length / rowsPerPage)) {
         currentPage++;
         renderTable();
+        document.getElementById("recordsPerPage").value= currentPage;
+
     }
 }
 
@@ -215,4 +219,11 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.search-input').addEventListener('input', searchEmployees);
 
     document.querySelector(".btn_add").addEventListener("click", () => nextCreatePage("0"));
+
+    document.getElementById("recordsPerPage").addEventListener('change', function(e) {
+        console.log(e.target.value);
+        currentPage = e.target.value;
+        renderTable();
+    })
 });
+

@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\MISA.TTDat_B20DCC178.Infrastructure",
     "\\MISA.TTDat_B20DCC178.Infrastructure\\Repository",
     "\\MISA.TTDat_B20DCCN178.API",
-    "\\MISA.TTDat_B20DCCN178.API\\obj",
-    "\\MISA.TTDat_B20DCCN178.API\\obj\\Release"
+    "\\MISA.TTDat_B20DCCN178.Core"
   ],
-  "SelectedNode": "\\MISA.TTDat_B20DCCN178.API\\appsettings.json",
+  "SelectedNode": "\\MISA.TTDat_B20DCCN178.API\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
